@@ -24,7 +24,7 @@ Tools wie WordPress vereinfachen die Entwicklung von Websiten. Mit Plugins kann 
 * Wartung: Anpassungen und Updates müssen selbst durchgeführt werden.
 * Keine sofortigen Module: Funktionen wie Kalendersynchronisation müssen eigenständig programmiert werden.
 
-## Nutzwertanalyse
+## Nutzwertanalyse Websitebuilder oder Eigenentwicklung
 
 Punktevergabe: 1 - 10
 
@@ -48,4 +48,8 @@ Punktevergabe: 1 - 10
 
 # Websitebuilder
 ## Auswahl
-Mit der vorherigen Nutzwertanalyse haben wir uns, auf grund der Zeit, entschieden einen Websitebuilder zu nehmen, statt eine Website mit HTML, CSS und JS selber zu implementieren. Nun stellt sich die Fragen welchen Websitebuilder nehmen wir. Es gibt sehr viele. Bekannte sind WordPress, Wix 
+Mit der vorherigen Nutzwertanalyse haben wir uns, auf grund der Zeit, entschieden einen Websitebuilder zu nehmen, statt eine Website mit HTML, CSS und JS selber zu implementieren. Nun stellt sich die Fragen welchen Websitebuilder nehmen wir. Es gibt sehr viele. Bekannte sind WordPress, Wix etc. Jedes Tool braucht unterschiedliches Vorwissen und Skill. Wir versuchen den Bestmöglichen Builder zu nehmen, der für unsere Voraussetzung (Kalender, Modernes Design) umzusetzen.
+
+
+## Nutzwertanalyse Websitebuilder
+Auswahl: 
