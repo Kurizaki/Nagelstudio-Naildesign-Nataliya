@@ -1,4 +1,5 @@
 version: '3.8'
+
 services:
   wordpress:
     image: wordpress:latest
@@ -11,7 +12,10 @@ services:
       WORDPRESS_DB_PASSWORD: wp_password
       WORDPRESS_DB_NAME: wp_database
     volumes:
-      - ./wordpress:/var/www/html
+      - ./wordpress:/var/www/html  # Binde deinen WordPress-Ordner ein
+    depends_on:
+      - db
+
   db:
     image: mysql:5.7
     container_name: wordpress_db
@@ -21,6 +25,8 @@ services:
       MYSQL_USER: wp_user
       MYSQL_PASSWORD: wp_password
     volumes:
-      - db_data:/var/lib/mysql
+      - db_data:/var/lib/mysql    # Persistente Datenbankdaten
+      - ./wordpress_db.sql:/docker-entrypoint-initdb.d/init.sql # Initialisiere DB mit SQL-Datei
+
 volumes:
   db_data:
