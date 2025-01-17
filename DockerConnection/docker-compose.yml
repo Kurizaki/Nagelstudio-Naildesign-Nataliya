@@ -26,7 +26,5 @@ services:
       MYSQL_PASSWORD: wp_password
     volumes:
       - db_data:/var/lib/mysql    # Persistente Datenbankdaten
-      - ./wordpress_db.sql:/docker-entrypoint-initdb.d/init.sql # Initialisiere DB mit SQL-Datei
-
 volumes:
   db_data:
