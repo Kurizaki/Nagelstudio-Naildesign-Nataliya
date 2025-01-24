@@ -29,17 +29,30 @@
 
 ### 17.01.2025
 
-- **Was wurde gestern gemacht:**
-  -
 - **Was wurde heute gemacht:**
-  -
+    - Heute wurde eine Recherche und Bewertung von erschiedenen Umsetzungsmöglichkeiten gemacht.
+  - Sprint Palnung wurde erstellt.
+  - Bewertung von Umsetungsmöglichkeiten
+  - Über die Technologie WordPress informiert.
+  - Konkurenzwebsiten angeschaut
+  - Technologieauswahl-Dokumentation erstellt
+  - WordPress dockerisiert
+  - Den Container auf einem Server gestartet.
+  - Login-Erstellt
 - **Blocker:**
-  -
+  - Weiteres vorgehen nicht möglich, da wir den Kunden auf die ersten Entwürfe Informieren müssen.
 
 ### 24.01.2025
 
-- **Was wurde gestern gemacht:**
-  -
+- **Was wurde das letzte Mal gemacht:**
+  -  Sprint Palnung wurde erstellt.
+  - Bewertung von Umsetungsmöglichkeiten
+  - Über die Technologie WordPress informiert.
+  - Konkurenzwebsiten angeschaut
+  - Technologieauswahl-Dokumentation erstellt
+  - WordPress dockerisiert
+  - Den Container auf einem Server gestartet.
+  - Login-Erstellt
 - **Was wird heute gemacht:**
   -
 - **Blocker:**
@@ -57,13 +70,10 @@
 
 ### Fortschritt der Arbeit
 
-*Präsentiere den Fortschritt der Arbeit, zeige abgeschlossene Features und demonstriere funktionierende Software.*
+Das Dokumentationsfile für die Gewählte Technologie (WordPress) wurde erstellt. Dazu wurde einen Container auf dem WordPress lauft erstellt und von ausen zugänglich gemacht.
+![WordPressLogin](https://github.com/user-attachments/assets/83535705-f6a8-4032-94ec-cb5b25c13f46)
 
-### Besprechung mit dem Kunden
-
-*Fasse die Diskussionen mit dem Kunden zusammen, einschließlich Feedback und eventueller Anpassungen an den Anforderungen.*
-
----
+Erstes Mock-Up wurde erstellt
 
 ## Sprint Retrospektive
 
