@@ -12,7 +12,7 @@ services:
       WORDPRESS_DB_PASSWORD: wp_password
       WORDPRESS_DB_NAME: wp_database
     volumes:
-      - ./wordpress:/var/www/html  # Binde deinen WordPress-Ordner ein
+      - ./wordpress:/var/www/html:rw  # Binde deinen WordPress-Ordner ein
     depends_on:
       - db
 
