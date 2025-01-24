@@ -71,6 +71,10 @@ Mit Googlerecherche und Vergleichungen von verschiedenen Aspekten haben wir eine
 
 Wir haben uns auf dem Server vom Inhaber mit Adminrecht verbunden. Darauf haben wir das Dockerfile auf den Server kopiert und den Container mit WordPress gestartet. Eine Herausforderung war das erstellen des Containers auf dem Server mittels ssh. Wir mussten das File vom lokalen Computer auf den Server laden und schliesslich den container starten. Dies erforderte Zeit wurde aber jedoch erfolgreich umgesetzt.
   - [Dockerfile](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/DockerConnection/docker-compose.yml)
+
+**24.01.2025:** Heute haben wir die Mock-Ups fertiggestellt. Dazu haben wir ebenfalls mit dem Kunden den Kontakt aufgenommen und die Präsentation vorgestellt. Das Protokoll wurde erfasst und schlussendlich wurde das Kundenfeedback in unsere Planung einbezogen. 
+ - [Protokoll](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/Gespr%C3%A4chsprotokoll/Protokoll01_24.01.2025.md) 
+
     
 ---
 
