@@ -65,8 +65,13 @@
 
 ## Entwicklungsarbeit
 
-**17.01.2025:** Wir haben uns auf dem Server vom Inhaber mit Adminrecht verbunden. Darauf haben wir das Dockerfile auf den Server kopiert und den Container mit WordPress gestartet. Eine Herausforderung war das erstellen des Containers auf dem Server mittels ssh. Wir mussten das File vom lokalen Computer auf den Server laden und schliesslich den container starten. Dies erforderte Zeit wurde aber jedoch erfolgreich umgesetzt.
+**17.01.2025:** 
+Mit Googlerecherche und Vergleichungen von verschiedenen Aspekten haben wir eine Detailierte Entscheidungsauwahl für die Technologie erstellt.
+  - [Analysebericht.pdf](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/Dokumentation/Technologie.md)
+
+Wir haben uns auf dem Server vom Inhaber mit Adminrecht verbunden. Darauf haben wir das Dockerfile auf den Server kopiert und den Container mit WordPress gestartet. Eine Herausforderung war das erstellen des Containers auf dem Server mittels ssh. Wir mussten das File vom lokalen Computer auf den Server laden und schliesslich den container starten. Dies erforderte Zeit wurde aber jedoch erfolgreich umgesetzt.
   - [Dockerfile](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/DockerConnection/docker-compose.yml)
+    
 
 
 *Beschreibe die Umsetzung des Sprint-Backlogs. Füge Details zu den abgeschlossenen Aufgaben, verwendeten Technologien und aufgetretenen Herausforderungen hinzu.*
@@ -95,21 +100,4 @@ Erstes Mock-Up wurde erstellt
 ### Massnahmen für den nächsten Sprint
 
 - 
-
----
-
-## Anhang
-
-- **Designentwürfe:**
-  - [Design 1](#)
-  - [Design 2](#)
-- **Konkurrenzanalyse Bericht:**
-  - [Analysebericht.pdf](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/Dokumentation/Technologie.md)
-- **Präsentationsmaterialien:**
-  - [Präsentation Sprint Review.pptx](#)
-- **Kundenfeedback:**
-  - [Feedback Zusammenfassung.docx](#)
-- **Prototyp Dokumentation:**
-  - [Prototyp Details.pdf](#)
-
 ---
