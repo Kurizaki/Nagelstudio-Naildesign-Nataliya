@@ -54,7 +54,10 @@
   - Den Container auf einem Server gestartet.
   - Login-Erstellt
 - **Was wird heute gemacht:**
-  -
+  - Heute wird die Präsentation für den Kunden erstellt.
+  - Kontakt mit dem Kunden aufgenommen und die Präsentation vorgestellt.
+  - Feedback vom Kunden in die Planung migrieren.
+  - Beginn implementation vom Produkt
 - **Blocker:**
   -
 
@@ -97,7 +100,7 @@ Erstes Mock-Up wurde erstellt
   - [Design 1](#)
   - [Design 2](#)
 - **Konkurrenzanalyse Bericht:**
-  - [Analysebericht.pdf](#)
+  - [Analysebericht.pdf](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/Dokumentation/Technologie.md)
 - **Präsentationsmaterialien:**
   - [Präsentation Sprint Review.pptx](#)
 - **Kundenfeedback:**
