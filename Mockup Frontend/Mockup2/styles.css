@@ -1,0 +1,541 @@
+/* ---------------------------
+   Farbpalette & Variablen
+--------------------------- */
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --color-bg: #fffafc;       /* Sehr helles Pastell-Rosé */
+    --color-text: #111;        /* Dunklere Schrift */
+    --color-primary: #ffb6c1;  /* Pastell-Pink */
+    --color-secondary: #e6b3de; /* Zartes Lavendelrosa */
+    --color-accent: #ffe6eb;   /* Helles Pink/Weißlich */
+    --color-dark: #111;        
+    --transition-default: 0.3s;
+  }
+  
+  /* Global Basics */
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.5;
+    text-decoration: none;
+  }
+  
+  main,
+  section,
+  .footer {
+    color: var(--color-text);
+  }
+  
+  /* ---------------------------
+     Sidebar
+  --------------------------- */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    z-index: 1000;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.05);
+    transform: translateX(-250px);
+    transition: transform var(--transition-default);
+  }
+  
+  /* Show sidebar if we have .sidebar-open on html/html */
+  html.sidebar-open .sidebar {
+    transform: translateX(0);
+  }
+  
+  .sidebar .logo {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff !important;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar nav ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 0.5rem;
+    border-radius: 4px;
+    color: #fff !important;
+    transition: background var(--transition-default),
+      transform var(--transition-default);
+  }
+  
+  .sidebar nav ul li a:hover,
+  .sidebar nav ul li a.active {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.02);
+  }
+  
+/* ---------------------------
+   Toggle Button (circular)
+--------------------------- */
+.toggle-btn {
+    position: fixed;
+    top: 1rem;
+    /* When sidebar is open (width: 250px), we place the button at left: 245px (so 5px gap). */
+    left: 255px;
+    z-index: 1100;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: #fff;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background var(--transition-default), transform var(--transition-default), left var(--transition-default);
+  }
+  
+  .toggle-btn:hover {
+    background: #ffaabb;
+    transform: scale(1.05);
+  }
+  
+  /* When the sidebar is closed, the button shifts far left (e.g., 10px), so it remains visible on the screen edge. */
+  html:not(.sidebar-open) .toggle-btn {
+    left: 10px; 
+  }
+  
+  
+  /* ---------------------------
+     Main Content
+  --------------------------- */
+  .main-content {
+    margin-left: 0;
+    padding: 2rem;
+    transition: margin-left var(--transition-default);
+  }
+  
+  html.sidebar-open .main-content {
+    margin-left: 250px;
+  }
+  
+  /* ---------------------------
+     Hero Section
+  --------------------------- */
+  .hero {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    background: #fff;
+    padding: 4rem 1rem;
+    border-radius: 12px;
+    margin-bottom: 4rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  }
+  
+  .hero-bg-abstract {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+      radial-gradient(circle at 20% 40%, var(--color-primary) 0%, transparent 60%),
+      radial-gradient(circle at 80% 60%, var(--color-secondary) 0%, transparent 60%);
+    opacity: 0.15;
+    z-index: 0;
+    border-radius: 12px;
+  }
+  
+  .hero-content {
+    flex: 1;
+    z-index: 1;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-dark) !important;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons .button {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-img {
+    flex: 1;
+    z-index: 1;
+    max-width: 500px;
+  }
+  
+  .hero-img img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* ---------------------------
+     Generic Sections
+  --------------------------- */
+  .section {
+    margin-bottom: 4rem;
+  }
+  
+  .section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--color-primary) !important;
+    position: relative;
+  }
+  
+  .section h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: var(--color-secondary);
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+  }
+  
+  .section p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    color: var(--color-text) !important;
+  }
+  
+  /* Home Info */
+  .home-info .info-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .home-info .info-item {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+  
+  .map {
+    margin-top: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* About */
+  .about-content {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .about-content figure {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .about-content img {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .about-content div {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  /* Services */
+  .services .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+  }
+  
+  .services .card {
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    transition: transform var(--transition-default), box-shadow var(--transition-default);
+  }
+  
+  .services .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+  }
+  
+  .services .card h3 {
+    margin-bottom: 1rem;
+    color: var(--color-dark) !important;
+  }
+  
+  .services .card p {
+    color: #111 !important;
+    line-height: 1.4;
+  }
+  
+  /* Pricing */
+  .bg-light {
+    background: #fefefe !important;
+  }
+  
+  .pricing .table-responsive {
+    margin-top: 2rem;
+  }
+  
+  .pricing table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  }
+  
+  .pricing th,
+  .pricing td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .pricing thead th {
+    background: var(--color-primary);
+    color: #fff;
+    border: none;
+  }
+  
+  .pricing tbody tr:hover {
+    background: #fafafa;
+  }
+  
+  /* Gallery */
+  .gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+  
+  .gallery .gallery-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform var(--transition-default), box-shadow var(--transition-default);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  }
+  
+  .gallery .gallery-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* Termin Buchen */
+  .book-appointment .appointment-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .book-appointment label {
+    font-weight: bold;
+  }
+  
+  .book-appointment input,
+  .book-appointment select,
+  .book-appointment textarea,
+  .contact-form input,
+  .contact-form textarea {
+    background: #fff !important;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #111 !important;
+  }
+  
+  .book-appointment input:focus,
+  .book-appointment select:focus,
+  .book-appointment textarea:focus,
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: var(--color-primary);
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 182, 193, 0.2);
+  }
+  
+  /* Testimonials */
+  .testimonials .testimonials-carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .testimonials blockquote {
+    background: #fff;
+    padding: 2rem;
+    border-left: 5px solid var(--color-primary);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    position: relative;
+  }
+  
+  .testimonials blockquote p {
+    font-style: italic;
+    color: #111 !important;
+  }
+  
+  .testimonials blockquote footer {
+    text-align: right;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: var(--color-dark) !important;
+  }
+  
+  /* Kontakt */
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+  
+  .contact-info {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: var(--color-primary);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background var(--transition-default), transform var(--transition-default);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button.secondary {
+    background: var(--color-secondary);
+    color: #fff;
+  }
+  
+  .button:hover {
+    transform: translateY(-2px);
+    background: var(--color-accent);
+  }
+  
+  /* Footer */
+  .footer {
+    background: var(--color-secondary);
+    color: #fff !important;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 12px;
+  }
+  
+  .footer .social-icons {
+    margin-top: 1rem;
+  }
+  
+  .footer .social-link {
+    color: #fff !important;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    transition: color var(--transition-default);
+  }
+  
+  .footer .social-link:hover {
+    color: var(--color-accent) !important;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-img {
+      order: -1;
+      max-width: 100%;
+    }
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .contact-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    /* On smaller screens, the toggle button can remain near the top-left */
+    html:not(.sidebar-open) .toggle-btn {
+      left: 1rem;
+    }
+  }
+  

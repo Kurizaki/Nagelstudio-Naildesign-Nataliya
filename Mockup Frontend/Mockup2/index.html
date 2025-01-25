@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="de" class="sidebar-open"><!-- Add 'sidebar-open' so the nav is open from the start -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naildesign Nataliya - Modernes Nagelstudio</title>
+
+  <!-- Pico CSS (Optional) -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- AOS Animation CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+  />
+
+  <!-- Flatpickr CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+  />
+
+  <!-- Flatpickr German Locale -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/de.css"
+  />
+
+  <!-- Lightbox2 CSS -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Toggle Button for Sidebar -->
+  <button class="toggle-btn" aria-label="Menü ein-/ausklappen">
+    ‹
+  </button>
+
+  <!-- Navigation Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <strong>Naildesign Nataliya</strong>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Startseite</a></li>
+        <li><a href="#home-info">Home Info</a></li>
+        <li><a href="#about">Über mich</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Preisliste</a></li>
+        <li><a href="#gallery">Galerie</a></li>
+        <li><a href="#book-appointment">Termin buchen</a></li>
+        <li><a href="#testimonials">Rezensionen</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-bg-abstract"></div>
+      <div class="hero-content" data-aos="fade-up">
+        <h1>Willkommen bei Naildesign Nataliya</h1>
+        <p>Ihr modernes Nagelstudio in Dietikon.</p>
+        <div class="hero-buttons">
+          <a href="#book-appointment" class="button">Termin buchen</a>
+          <a href="#services" class="button secondary">Unsere Services</a>
+        </div>
+      </div>
+      <figure class="hero-img" data-aos="fade-left">
+        <img
+          src="https://source.unsplash.com/1600x900/?nailstudio,beauty"
+          alt="Nagelstudio"
+        />
+      </figure>
+    </section>
+
+    <!-- Home Info Section -->
+    <section id="home-info" class="home-info section">
+      <div class="container">
+        <h2>Willkommensnachricht</h2>
+        <p>
+          Herzlich willkommen bei Naildesign Nataliya! Wir freuen uns, Sie in
+          unserem Nagelstudio in Dietikon begrüßen zu dürfen...
+        </p>
+        <div class="info-details">
+          <div class="info-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>Adresse</h3>
+            <p>
+              Kronenplatz 5,<br />
+              8953 Dietikon, Schweiz
+            </p>
+          </div>
+          <div class="info-item" data-aos="fade-up" data-aos-delay="200">
+            <h3>Öffnungszeiten</h3>
+            <p>
+              Montag - Freitag: 09:00 - 19:00<br />
+              Samstag: 10:00 - 17:00<br />
+              Sonntag: Geschlossen
+            </p>
+          </div>
+        </div>
+        <!-- Google Maps -->
+        <div class="map" data-aos="fade-up" data-aos-delay="300">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086577923231!2d8.36405841567338!3d47.44776727918595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478d6b243e1f0b9f%3A0xa3bbd9a8c1e0f3c8!2sKronenplatz%205%2C%208953%20Dietikon%2C%20Schweiz!5e0!3m2!1sde!2sch!4v1697747250410!5m2!1sde!2sch"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Über mich Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2>Über mich</h2>
+        <div class="about-content" data-aos="fade-up">
+          <figure>
+            <img
+              src="https://source.unsplash.com/400x400/?woman,nailartist"
+              alt="Nataliya"
+              class="rounded"
+            />
+          </figure>
+          <div>
+            <p>
+              Mein Name ist Nataliya und ich bin die Inhaberin von Naildesign
+              Nataliya. Vor über 18 Jahren habe ich meine Liebe...
+            </p>
+            <p>
+              Ich bilde mich regelmäßig weiter und setze auf Qualität,
+              Kreativität und Professionalität...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container">
+        <h2>Unsere Services</h2>
+        <div class="grid">
+          <div class="card" data-aos="fade-up">
+            <h3>Maniküre</h3>
+            <p>
+              Unsere klassische Maniküre umfasst Nagelpflege...
+            </p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
+            <h3>Pediküre</h3>
+            <p>
+              Unsere Pediküre sorgt für gepflegte und schöne Füße...
+            </p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="400">
+            <h3>Nailart</h3>
+            <p>
+              Kreative und individuelle Nailart-Designs...
+            </p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="600">
+            <h3>Gelnägel</h3>
+            <p>
+              Langanhaltende Gelnägel mit UV- oder LED-Härtung...
+            </p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="800">
+            <h3>Nageldesign</h3>
+            <p>
+              Exklusive Nageldesigns, die Ihre Persönlichkeit...
+            </p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="1000">
+            <h3>Nagellack</h3>
+            <p>
+              Eine große Auswahl an hochwertigen Nagellacken...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preisliste Section -->
+    <section id="pricing" class="pricing section bg-light">
+      <div class="container">
+        <h2>Preisliste</h2>
+        <p class="text-center">
+          Hier finden Sie unsere aktuellen Preise:
+        </p>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Behandlung</th>
+                <th>Preis (CHF)</th>
+                <th>Beschreibung</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Maniküre</td>
+                <td>50.-</td>
+                <td>Pflege der Nägel, Nagelhaut und Handmassage.</td>
+              </tr>
+              <tr>
+                <td>Gelnägel</td>
+                <td>80.-</td>
+                <td>
+                  Langanhaltende Gelnägel mit UV- oder LED-Härtung.
+                </td>
+              </tr>
+              <tr>
+                <td>Nailart</td>
+                <td>30.-</td>
+                <td>
+                  Kreative Designs und Verzierungen nach Wunsch.
+                </td>
+              </tr>
+              <tr>
+                <td>Pediküre</td>
+                <td>60.-</td>
+                <td>
+                  Pflege der Füße, Nägel und Fußmassage.
+                </td>
+              </tr>
+              <tr>
+                <td>Nagellack</td>
+                <td>20.-</td>
+                <td>Einfaches Auftragen von Nagellack Ihrer Wahl.</td>
+              </tr>
+              <tr>
+                <td>Handmassage</td>
+                <td>25.-</td>
+                <td>
+                  Entspannende Handmassage zur Verbesserung der Durchblutung.
+                </td>
+              </tr>
+              <tr>
+                <td>Fußmassage</td>
+                <td>35.-</td>
+                <td>
+                  Erholsame Fußmassage zur Linderung von Verspannungen.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galerie Section -->
+    <section id="gallery" class="gallery section">
+      <div class="container">
+        <h2>Galerie</h2>
+        <div class="grid gallery-grid">
+          <!-- Beispiel-Bilder -->
+          <a
+            href="https://lh5.googleusercontent.com/p/AF1QipPBugx9Lhb1JaqtM9X3hcOdt19qI_tFv7lnm_ZS=w231-h385-n-k-no-nu"
+            data-lightbox="gallery"
+          >
+            <img
+              src="https://lh5.googleusercontent.com/p/AF1QipPBugx9Lhb1JaqtM9X3hcOdt19qI_tFv7lnm_ZS=w231-h385-n-k-no-nu"
+              alt="Galerie Bild 1"
+              class="gallery-image rounded"
+            />
+          </a>
+          <a
+            href="https://lh5.googleusercontent.com/p/AF1QipOPyzpVKKaRmWMR4IoDMxaCIp1jb73mVzHnraQ3=w231-h289-n-k-no-nu"
+            data-lightbox="gallery"
+          >
+            <img
+              src="https://lh5.googleusercontent.com/p/AF1QipOPyzpVKKaRmWMR4IoDMxaCIp1jb73mVzHnraQ3=w231-h289-n-k-no-nu"
+              alt="Galerie Bild 2"
+              class="gallery-image rounded"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Termin Vereinbaren Section -->
+    <section id="book-appointment" class="book-appointment section bg-light">
+      <div class="container">
+        <h2>Termin Vereinbaren</h2>
+        <div class="appointment-form" data-aos="fade-up">
+          <form
+            action="https://formspree.io/f/your-form-id"
+            method="POST"
+          >
+            <label for="appointment-date">Datum und Uhrzeit</label>
+            <input
+              type="text"
+              id="appointment-date"
+              name="appointment-date"
+              placeholder="Wählen Sie Datum und Uhrzeit"
+              required
+            />
+
+            <label for="service">Dienst</label>
+            <select id="service" name="service" required>
+              <option selected disabled>Wählen Sie einen Dienst</option>
+              <option value="Maniküre">Maniküre</option>
+              <option value="Gelnägel">Gelnägel</option>
+              <option value="Nailart">Nailart</option>
+              <option value="Pediküre">Pediküre</option>
+              <option value="Nagellack">Nagellack</option>
+              <option value="Handmassage">Handmassage</option>
+              <option value="Fußmassage">Fußmassage</option>
+            </select>
+
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ihr Name"
+              required
+            />
+
+            <label for="phone">Telefonnummer</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Ihre Telefonnummer"
+              required
+            />
+
+            <label for="message">Bemerkung (optional)</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Ihre Bemerkung"
+              rows="3"
+            ></textarea>
+
+            <button type="submit" class="button">Termin buchen</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section bg-light">
+      <div class="container">
+        <h2>Rezensionen</h2>
+        <div class="testimonials-carousel" data-aos="fade-up">
+          <!-- Dynamisch eingefügte Testimonials -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontakt Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <div class="contact-content" data-aos="fade-up">
+          <div class="contact-info">
+            <p>
+              Rufen Sie uns an oder besuchen Sie uns am Kronenplatz 5...
+            </p>
+            <a href="tel:0792871118" class="button">Jetzt anrufen</a>
+          </div>
+          <div class="contact-form">
+            <form
+              action="https://formspree.io/f/your-form-id"
+              method="POST"
+            >
+              <label for="contact-name">Name</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                placeholder="Ihr Name"
+                required
+              />
+
+              <label for="contact-email">E-Mail</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="_replyto"
+                placeholder="Ihre E-Mail"
+                required
+              />
+
+              <label for="contact-message">Nachricht</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                placeholder="Ihre Nachricht"
+                rows="4"
+                required
+              ></textarea>
+
+              <button type="submit" class="button">Nachricht senden</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="container">
+        <p>&copy; 2025 Naildesign Nataliya. Alle Rechte vorbehalten.</p>
+        <div class="social-icons">
+          <!-- Social-Links ohne Icons -->
+          <a href="https://facebook.com/yourprofile" class="social-link">
+            Facebook
+          </a>
+          <a href="https://instagram.com/yourprofile" class="social-link">
+            Instagram
+          </a>
+          <a href="https://twitter.com/yourprofile" class="social-link">
+            Twitter
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Lightbox2 JS -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
+  ></script>
+
+  <!-- Flatpickr JS -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <!-- Flatpickr German Locale -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/de.js"></script>
+
+  <!-- AOS Animation JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      easing: "ease-in-out",
+      once: true,
+    });
+
+    // Initialize Flatpickr
+    flatpickr("#appointment-date", {
+      enableTime: true,
+      dateFormat: "d.m.Y H:i",
+      minDate: "today",
+      locale: "de",
+    });
+
+    // Toggle Sidebar
+    const toggleBtn = document.querySelector(".toggle-btn");
+    toggleBtn.addEventListener("click", () => {
+      document.documentElement.classList.toggle("sidebar-open"); 
+      // Switch icon from ‹ to › when toggling
+      toggleBtn.textContent =
+        document.documentElement.classList.contains("sidebar-open") ? "‹" : "›";
+    });
+
+    // Testimonials Data
+    const testimonials = [
+      {
+        text: "Ich wusste nicht, welche „Technik“ für mich am optimalsten ist...",
+        name: "Lena",
+      },
+      {
+        text: "Sehr sorgfältige Arbeit und herzliche Person. Bin wirklich sehr zufrieden...",
+        name: "R. Iftodi",
+      },
+      // ... weitere Testimonials ...
+    ];
+
+    function populateTestimonials() {
+      const container = document.querySelector(".testimonials-carousel");
+      testimonials.forEach((testimonial, index) => {
+        const blockquote = document.createElement("blockquote");
+        blockquote.innerHTML = `<p>“${testimonial.text}”</p><footer>- ${testimonial.name}</footer>`;
+        blockquote.setAttribute("data-aos", "fade-up");
+        blockquote.setAttribute("data-aos-delay", `${index * 100}`);
+        container.appendChild(blockquote);
+      });
+    }
+    populateTestimonials();
+  </script>
+</body>
+</html>

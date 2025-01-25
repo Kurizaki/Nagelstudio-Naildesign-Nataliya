@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naildesign Nataliya – Professionelle Nagelpflege in Dietikon</title>
+  <meta name="description" content="Naildesign Nataliya in Dietikon: Erstklassige Maniküre, Pediküre, Gelnägel, Nailart und mehr. Termin online buchen und Top-Service genießen!">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <!-- Flatpickr CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Lightbox2 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon (optional) -->
+  <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Naildesign Nataliya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Menü ein-/ausklappen">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+
+          <!-- Startseite -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#home" id="navbarDropdown1" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Startseite
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <li><a class="dropdown-item" href="#book-appointment">Termin buchen</a></li>
+              <li><a class="dropdown-item" href="#home-info">Wer sind Wir</a></li>
+            </ul>
+          </li>
+
+          <!-- Services -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown2" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <li><a class="dropdown-item" href="#pricing">Preisliste</a></li>
+              <li><a class="dropdown-item" href="#gallery">Galerie</a></li>
+            </ul>
+          </li>
+
+          <!-- Über mich -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#about" id="navbarDropdown3" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Über mich
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <li><a class="dropdown-item" href="#testimonials">Rezensionen</a></li>
+              <li><a class="dropdown-item" href="#contact">Kontakt</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero-section">
+    <div class="overlay"></div>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center text-center">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="display-4" data-aos="fade-down">Willkommen bei Naildesign Nataliya</h1>
+          <p class="lead mb-4" data-aos="fade-up">
+            Naildesign und Nailkosmetik für Sie und Ihn in einer entspannten und freundlichen Umgebung.
+          </p>
+          <a href="#book-appointment" class="btn btn-lg btn-primary mt-3" data-aos="zoom-in">
+            Termin vereinbaren
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Termin Vereinbaren -->
+  <section id="book-appointment" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4" data-aos="fade-up">Termin Vereinbaren</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto" data-aos="fade-up">
+          <form action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="mb-3">
+              <label for="appointment-date" class="form-label">Datum und Uhrzeit</label>
+              <input type="text" class="form-control" id="appointment-date" name="appointment-date"
+                placeholder="Wählen Sie Datum und Uhrzeit" required>
+            </div>
+            <div class="mb-3">
+              <label for="service" class="form-label">Dienst</label>
+              <select class="form-select" id="service" name="service" required>
+                <option selected disabled>Wählen Sie einen Dienst</option>
+                <option value="Maniküre">Maniküre</option>
+                <option value="Gelnägel">Gelnägel</option>
+                <option value="Nailart">Nailart</option>
+                <option value="Pediküre">Pediküre</option>
+                <option value="Nagellack">Nagellack</option>
+                <option value="Handmassage">Handmassage</option>
+                <option value="Fußmassage">Fußmassage</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name"
+                placeholder="Ihr Name" required>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Telefonnummer</label>
+              <input type="tel" class="form-control" id="phone" name="phone"
+                placeholder="Ihre Telefonnummer" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Bemerkung (optional)</label>
+              <textarea class="form-control" id="message" name="message" rows="3"
+                placeholder="Ihre Bemerkung"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Termin buchen</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Startseite Info -->
+  <section id="home-info" class="section-padding bg-light" aria-labelledby="home-info-heading">
+    <div class="container">
+      <h2 id="home-info-heading" class="text-center mb-4" data-aos="fade-up">Willkommen!</h2>
+      <div class="row text-center">
+        <div class="col-lg-6 mx-auto" data-aos="fade-up">
+          <p>
+            Entdecken Sie erstklassiges Naildesign und hochwertige Nailkosmetik für Sie und Ihn in einer entspannten und
+            freundlichen Atmosphäre. Mit über zehn Jahren Erfahrung und kontinuierlicher Weiterbildung biete ich Ihnen
+            stets die neuesten Trends und Techniken. Von klassischem Frenchdesign über kreative Nailart bis hin zu
+            eleganten Stilettos – Ihr Wunsch ist meine Leidenschaft. Kommen Sie vorbei, lassen Sie sich inspirieren oder
+            genießen Sie eine unverbindliche Beratung. Ich freue mich auf Ihren Besuch!
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5 text-center">
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <h3>Adresse</h3>
+          <p>
+            Kronenplatz 5,<br>
+            8953 Dietikon, Schweiz
+          </p>
+        </div>
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <h3>Öffnungszeiten</h3>
+          <p>
+            Montag - Freitag: 09:00 - 19:00<br>
+            Samstag: 10:00 - 17:00<br>
+            Sonntag: Geschlossen
+          </p>
+        </div>
+      </div>
+
+      <!-- Google Maps Integration -->
+      <div class="row mt-5" data-aos="fade-up">
+        <div class="col-lg-12">
+          <iframe
+            title="Google Maps – Naildesign Nataliya"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086577923231!2d8.36405841567338!3d47.44776727918595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478d6b243e1f0b9f%3A0xa3bbd9a8c1e0f3c8!2sKronenplatz%205%2C%208953%20Dietikon%2C%20Schweiz!5e0!3m2!1sde!2sch!4v1697747250410!5m2!1sde!2sch"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section-padding" aria-labelledby="services-heading">
+    <div class="container">
+      <h2 id="services-heading" class="text-center mb-4" data-aos="fade-up">Unsere Services</h2>
+      <div class="row text-center">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card border-0 shadow">
+            <div class="card-body">
+              <h3>Maniküre</h3>
+              <p>
+                Unsere klassische Maniküre umfasst Nagelpflege, Handmassage und die Anwendung von Nagellack nach Ihren
+                Wünschen.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card border-0 shadow">
+            <div class="card-body">
+              <h3>Gelnägel</h3>
+              <p>
+                Langanhaltende Gelnägel mit UV- oder LED-Härtung für schönere und widerstandsfähigere Nägel.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card border-0 shadow">
+            <div class="card-body">
+              <h3>Nailart</h3>
+              <p>
+                Kreative und individuelle Nailart-Designs, die Ihren persönlichen Stil unterstreichen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Weitere Services ohne Galerie-Bilder -->
+      <div class="row text-center mt-5">
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card border-0 shadow">
+            <div class="card-body">
+              <h3>Pediküre</h3>
+              <p>
+                Unsere Pediküre sorgt für gepflegte und schöne Füße, inklusive Nagelpflege und Massage.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+          <div class="card border-0 shadow">
+            <div class="card-body">
+              <h3>Naildesign</h3>
+              <p>
+                Exklusive Naildesigns, die Ihre Persönlichkeit und Ihren Stil perfekt widerspiegeln.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+          <div class="card border-0 shadow">
+            <div class="card-body">
+              <h3>Nagellack</h3>
+              <p>
+                Eine große Auswahl an hochwertigen Nagellacken für jede Gelegenheit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preisliste -->
+  <section id="pricing" class="bg-light section-padding" aria-labelledby="pricing-heading">
+    <div class="container">
+      <h2 id="pricing-heading" class="text-center mb-4" data-aos="fade-up">Preisliste</h2>
+      <p class="text-center mb-5" data-aos="fade-up">Hier finden Sie unsere aktuellen Preise:</p>
+      <div class="table-responsive">
+        <table class="table table-bordered" data-aos="fade-up">
+          <thead>
+            <tr>
+              <th>Behandlung</th>
+              <th>Preis (CHF)</th>
+              <th>Beschreibung</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Maniküre</td>
+              <td>50.-</td>
+              <td>Pflege der Nägel, Nagelhaut und eine Handmassage.</td>
+            </tr>
+            <tr>
+              <td>Gelnägel</td>
+              <td>80.-</td>
+              <td>Langanhaltende Gelnägel mit UV- oder LED-Härtung.</td>
+            </tr>
+            <tr>
+              <td>Nailart</td>
+              <td>30.-</td>
+              <td>Kreative Designs und Verzierungen nach Ihren Wünschen.</td>
+            </tr>
+            <tr>
+              <td>Pediküre</td>
+              <td>60.-</td>
+              <td>Pflege der Füße, Nägel und eine Fußmassage.</td>
+            </tr>
+            <tr>
+              <td>Nagellack</td>
+              <td>20.-</td>
+              <td>Einfaches Auftragen von Nagellack Ihrer Wahl.</td>
+            </tr>
+            <tr>
+              <td>Handmassage</td>
+              <td>25.-</td>
+              <td>Entspannende Handmassage zur Verbesserung der Durchblutung.</td>
+            </tr>
+            <tr>
+              <td>Fußmassage</td>
+              <td>35.-</td>
+              <td>Erholsame Fußmassage zur Linderung von Verspannungen.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galerie -->
+  <section id="gallery" class="section-padding" aria-labelledby="gallery-heading">
+    <div class="container">
+      <h2 id="gallery-heading" class="text-center mb-4" data-aos="fade-up">Galerie</h2>
+      <div class="row">
+        <!-- Galerie-Bilder in einem Grid-Layout -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+          <a href="https://lh5.googleusercontent.com/p/AF1QipPBugx9Lhb1JaqtM9X3hcOdt19qI_tFv7lnm_ZS=w231-h385-n-k-no-nu"
+            data-lightbox="gallery">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipPBugx9Lhb1JaqtM9X3hcOdt19qI_tFv7lnm_ZS=w231-h385-n-k-no-nu"
+              alt="Elegante Gelnägel mit Verzierung" class="img-fluid gallery-image rounded shadow">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+          <a href="https://lh5.googleusercontent.com/p/AF1QipOPyzpVKKaRmWMR4IoDMxaCIp1jb73mVzHnraQ3=w231-h289-n-k-no-nu"
+            data-lightbox="gallery">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipOPyzpVKKaRmWMR4IoDMxaCIp1jb73mVzHnraQ3=w231-h289-n-k-no-nu"
+              alt="Kreative Nailart in Rosa" class="img-fluid gallery-image rounded shadow">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+          <a href="https://lh5.googleusercontent.com/p/AF1QipMdtnVhmP2GFBABE6Uwjq33jQKM8mbV_cKqYld0=w231-h385-n-k-no-nu"
+            data-lightbox="gallery">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipMdtnVhmP2GFBABE6Uwjq33jQKM8mbV_cKqYld0=w231-h385-n-k-no-nu"
+              alt="Sommerliche Nagelkunst mit Pastellfarben" class="img-fluid gallery-image rounded shadow">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+          <a href="https://lh5.googleusercontent.com/p/AF1QipPo9L1jvATmXELqmCbxibmn66gLpyeKDXLdoyKp=w231-h231-n-k-no-nu"
+            data-lightbox="gallery">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipPo9L1jvATmXELqmCbxibmn66gLpyeKDXLdoyKp=w231-h231-n-k-no-nu"
+              alt="French Maniküre mit zartem Farbverlauf" class="img-fluid gallery-image rounded shadow">
+          </a>
+        </div>
+        <!-- Weitere Bilder ... -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+          <a href="https://lh5.googleusercontent.com/p/AF1QipMwPHsiARp066hzmwV3nzVVTuvw-PESrnpIvIHL=w231-h385-n-k-no-nu"
+            data-lightbox="gallery">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipMwPHsiARp066hzmwV3nzVVTuvw-PESrnpIvIHL=w231-h385-n-k-no-nu"
+              alt="Klassische Eleganz – rote Gelnägel" class="img-fluid gallery-image rounded shadow">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="500">
+          <a href="https://lh5.googleusercontent.com/p/AF1QipMvE24Go1dn99LRLElWs4D82-OMwrqG1EP6KD_I=w231-h231-n-k-no-nu"
+            data-lightbox="gallery">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipMvE24Go1dn99LRLElWs4D82-OMwrqG1EP6KD_I=w231-h231-n-k-no-nu"
+              alt="Detailreiche Blütenmotive auf hellen Nägeln" class="img-fluid gallery-image rounded shadow">
+          </a>
+        </div>
+        <!-- ... bitte die restlichen Bilder entsprechend einfügen und alt-Texte anpassen -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section-padding bg-gradient text-white" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <h2 id="testimonials-heading" class="text-center mb-4" data-aos="fade-up">Kundenrezensionen</h2>
+
+      <!-- Bootstrap Carousel for Testimonials -->
+      <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up"
+           aria-label="Kundenbewertungen">
+        <div class="carousel-inner" id="carousel-inner-testimonials" role="listbox">
+          <!-- Testimonials werden hier von JavaScript eingefügt -->
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev"
+          aria-label="Vorheriges Testimonial">
+          <span class="carousel-control-prev-icon bg-white rounded-circle p-3" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next"
+          aria-label="Nächstes Testimonial">
+          <span class="carousel-control-next-icon bg-white rounded-circle p-3" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Über mich -->
+  <section id="about" class="bg-light section-padding" aria-labelledby="about-heading">
+    <div class="container">
+      <h2 id="about-heading" class="text-center mb-4" data-aos="fade-up">Über Mich</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-4 text-center" data-aos="fade-right">
+          <img src="https://source.unsplash.com/400x400/?woman,nailartist" alt="Nataliya, Ihre Naildesignerin"
+            class="img-fluid rounded-circle shadow">
+        </div>
+        <div class="col-lg-8" data-aos="fade-left">
+          <p>
+            Mein Name ist Nataliya und ich bin die Inhaberin von Naildesign Nataliya. Vor über 18 Jahren habe ich
+            meine Liebe und Leidenschaft zum Naildesign entdeckt. In meiner Heimatstadt Lugansk (Ukraine)
+            begann ich in einem renommierten Fachgeschäft und setzte meinen Weg in der Schweiz fort. Heute
+            biete ich an meinem Standort in Dietikon die neuesten Trends und Techniken an, damit sich meine
+            Kundschaft in den besten Händen fühlt.
+          </p>
+          <p>
+            Ich bilde mich regelmäßig weiter und setze auf Qualität, Kreativität und Professionalität. Mein
+            Ziel ist es, Ihnen ein unvergessliches Erlebnis zu bieten und Ihre individuellen Wünsche perfekt
+            umzusetzen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="contact" class="bg-gradient text-white section-padding" aria-labelledby="contact-heading">
+    <div class="container text-center">
+      <h2 id="contact-heading" data-aos="fade-up">Kontaktieren Sie Uns</h2>
+      <p data-aos="fade-up">Rufen Sie uns an oder besuchen Sie uns am Kronenplatz 5, 8953 Dietikon.</p>
+      <a href="tel:0792871118" class="btn btn-light btn-lg mb-4" data-aos="zoom-in">Jetzt anrufen</a>
+
+      <!-- Kontaktformular -->
+      <div class="row">
+        <div class="col-lg-8 mx-auto" data-aos="fade-up">
+          <form action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="mb-3">
+              <label for="contact-name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="contact-name" name="name" placeholder="Ihr Name" required>
+            </div>
+            <div class="mb-3">
+              <label for="contact-email" class="form-label">E-Mail</label>
+              <input type="email" class="form-control" id="contact-email" name="_replyto" placeholder="Ihre E-Mail" required>
+            </div>
+            <div class="mb-3">
+              <label for="contact-message" class="form-label">Nachricht</label>
+              <textarea class="form-control" id="contact-message" name="message" rows="4"
+                placeholder="Ihre Nachricht" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Nachricht senden</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center">
+    <p class="mb-1">&copy; 2025 Naildesign Nataliya. Alle Rechte vorbehalten.</p>
+    <div class="social-icons mb-2">
+      <a href="https://facebook.com/yourprofile" class="text-white me-3" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://instagram.com/yourprofile" class="text-white me-3" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://twitter.com/yourprofile" class="text-white" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Lightbox2 JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+  <!-- Flatpickr JS + German Locale -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/de.js"></script>
+
+  <!-- AOS Animation JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Custom JS (Testimonials und Initialisierungen) -->
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.custom-navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Smooth scrolling for active links
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+      link.addEventListener('click', function () {
+        navLinks.forEach(nav => nav.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+
+    // Flatpickr Initialization for Appointment Booking
+    flatpickr("#appointment-date", {
+      enableTime: true,
+      dateFormat: "d.m.Y H:i",
+      minDate: "today",
+      locale: "de"
+    });
+
+    // Testimonials Data Array
+    const testimonials = [
+      {
+        text: "Ich wusste nicht, welche „Technik“ für mich am optimalsten ist. Habe mich durch Nataliya sehr gut beraten gefühlt. Das Ergebnis ist auch hervorragend geworden. Sie arbeitet sehr akkurat und redet einem nicht eine Frikadelle ans Ohr. Ich komme sicher wieder und kann sie weiterempfehlen.",
+        name: "Lena"
+      },
+      {
+        text: "Sehr sorgfältige Arbeit und herzliche Person. Bin wirklich sehr zufrieden. Danke dir für die schönen Nägel und jedesmal tolle Zeit bei dir.",
+        name: "R. Iftodi"
+      },
+      {
+        text: "Ich möchte mich bei Nataliya bedanken. Sie hat immer hervorragende Arbeit geleistet und ich bin froh das ich sie kennen lernen durfte. 🤗 Ich kann Sie jedem nur wärmstens Empfehlen.",
+        name: "Lydia G."
+      },
+      {
+        text: "Ich liebe die Atmosphäre und das freundliche Personal. Top Nagelstudio!",
+        name: "Julia M."
+      },
+      {
+        text: "Habe nie eine so präzise und saubere Arbeit gesehen. Nataliya macht ihre Arbeit aus purer Leidenschaft! Sie ist sehr freundlich und absolut empfehlenswert. Ich bin sehr zufrieden!",
+        name: "Tiziana B."
+      },
+      {
+        text: "Wirklich total zufrieden, einfach wooow 😍 Nataliya, für mich bist du die beste, empfehle dich gerne weiter! Bekomme viele Komplimente für meine schönen feinen Gelnägel. Dankeschön deine langjährige treue Kundin Sandy",
+        name: "Sandra O."
+      },
+      {
+        text: "Natalya ist für mich nicht einfach eine Naildesignerin sondern eine Nailkünstlerin. Ihre Arbeit ist jedesmal top aktuell, sehr professionell, einzigartig perfekt und übertrifft alle Erwartungen. Ohne Ausnahmen!!",
+        name: "Maria M."
+      },
+      {
+        text: "Beste Pedikürte die ich je gehabt habe. Der Kaffee war auch toll.",
+        name: "Walter K."
+      },
+      {
+        text: "Seit 7 Jahren Bin ich eine treue Kundin von Nataliya Burlet.Absolut empfehlsenswert einer der Top Adressen im Naildesign! Immer topaktuell und excellente Arbeit👍🏼👌🏾💅🏽",
+        name: "Junita L."
+      },
+      {
+        text: "Sie ist die Beste!!! Seit mehr als 10 Jahre bei Ihr!!! Jeden Monat! ... einfach goldig!!! Ich könnte ihr auch 10 Sterne geben!",
+        name: "Maria M."
+      },
+      {
+        text: "Sehr sehr gute Arbeit und freundliche Inhaberin. Bin schon seit viiiiiielen Jahren eine zufriedene Kundin 😊",
+        name: "Sabrina Z."
+      },
+      {
+        text: "Die beste Nagelchen.Super Arbeit. Danke.",
+        name: "Jana K."
+      },
+      {
+        text: "Great experience and I can only recommend Nataliya as a nail designer. She is very precise and attentive, and the end result is beautiful. So happy to find such a great master in Dietikon!",
+        name: "Angela I."
+      },
+      {
+        text: "Sehr guter Service und insgesamt eine wundervolle Erfahrung. Natalyia ist äußerst detailorientiert, nett und freundlich. Ihr Fokus liegt auf Qualität und nicht auf Quantität. Beste Erfahrung bisher. Danke schön! ❤️",
+        name: "Ilinca P."
+      },
+      {
+        text: "👌 👍 😍",
+        name: "Lana H."
+      },
+    ];
+
+    // Funktion zum Erstellen der Carousel-Items
+    function populateTestimonials() {
+      const carouselInner = document.getElementById('carousel-inner-testimonials');
+      const itemsPerSlide = 3; // Anzahl der Testimonials pro Slide
+      let carouselItem;
+
+      testimonials.forEach((testimonial, index) => {
+        // Erstellen eines neuen Carousel-Items alle 'itemsPerSlide' Testimonials
+        if (index % itemsPerSlide === 0) {
+          carouselItem = document.createElement('div');
+          carouselItem.classList.add('carousel-item');
+          if (index === 0) {
+            carouselItem.classList.add('active');
+          }
+          const row = document.createElement('div');
+          row.classList.add('row', 'justify-content-center');
+          carouselItem.appendChild(row);
+          carouselInner.appendChild(carouselItem);
+        }
+
+        // Erstellen des Testimonial-HTMLs
+        const col = document.createElement('div');
+        col.classList.add('col-md-4', 'mb-4');
+        const testimonialDiv = document.createElement('div');
+        testimonialDiv.classList.add('testimonial');
+
+        const pText = document.createElement('p');
+        pText.classList.add('mb-3');
+        pText.textContent = `"${testimonial.text}"`;
+
+        const starsDiv = document.createElement('div');
+        starsDiv.classList.add('stars');
+        for (let i = 0; i < 5; i++) {
+          const star = document.createElement('i');
+          star.classList.add('fas', 'fa-star');
+          starsDiv.appendChild(star);
+        }
+
+        const pName = document.createElement('p');
+        pName.classList.add('mt-2');
+        pName.innerHTML = `<strong>${testimonial.name}</strong>`;
+
+        // Elemente anhängen
+        testimonialDiv.appendChild(pText);
+        testimonialDiv.appendChild(starsDiv);
+        testimonialDiv.appendChild(pName);
+        col.appendChild(testimonialDiv);
+        carouselItem.querySelector('.row').appendChild(col);
+      });
+    }
+
+    // Initialisieren der Testimonials
+    populateTestimonials();
+  </script>
+
+</body>
+</html>
