@@ -12,9 +12,10 @@ services:
       WORDPRESS_DB_PASSWORD: wp_password
       WORDPRESS_DB_NAME: wp_database
     volumes:
-      - ./wordpress:/var/www/html:rw  # Binde deinen WordPress-Ordner ein
+      - ./wordpress:/var/www/html:rw
     depends_on:
       - db
+    restart: always
 
   db:
     image: mysql:5.7
@@ -26,5 +27,7 @@ services:
       MYSQL_PASSWORD: wp_password
     volumes:
       - ./wp-content:/var/www/html/wp-content
+    restart: always
+
 volumes:
   db_data:
