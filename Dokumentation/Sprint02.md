@@ -20,9 +20,9 @@ Das Protokoll überarbeiten, Erste implementationen tätigen, Gespräch mit der 
 | --- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -------------- |
 | 1   | Protokoll überarbeiten                                | Protokoll überarbeiten und Planung am Produkt durchführen.                                                              | 1 Stunden | Pascal         |
 | 2   | Mock-Ups erstellen                              | 2 Mockups für die Kundin erstellen                                                        | 2 Stunden | Keanu & Pascal        |
-| 2   | Erste Implementation machen                           | Erste Implementierungen tätigen (Keine Forgaben, einfach Anfangen und mit der Materia vertrau werden).                                                                                   | 3 Stunden | Keanu & Pascal |
-| 3   | Vorbereitung Kundenkontakt                            | Kundengespräch vorberreiten.                                                                                                                     | 1 Stunden | Keanu & Pascal |
-| 4   | Kundengespräch                                        | Durchführung des Kundenmeetings, Wünsche entgegennehmen, Mockups zeigen | 2 Stunden | Keanu & Pascal |
+| 3   | Erste Implementation machen                           | Erste Implementierungen tätigen (Keine Forgaben, einfach Anfangen und mit der Materia vertrau werden).                                                                                   | 3 Stunden | Keanu & Pascal |
+| 4   | Vorbereitung Kundenkontakt                            | Kundengespräch vorberreiten.                                                                                                                     | 1 Stunden | Keanu & Pascal |
+| 5   | Kundengespräch                                        | Durchführung des Kundenmeetings, Wünsche entgegennehmen, Mockups zeigen | 2 Stunden | Keanu & Pascal |
 
 ## Daily Scrum
 
