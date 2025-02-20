@@ -91,13 +91,16 @@ Erstes Mock-Up wurde erstellt
 
 ### Was lief gut
 
-- 
+-  Das Aufsetzten es Containers auf dem Server lief sehr gut.
+- Das Finden der passende Technologie ging sehr gut.
+- Der erster Kontakt mit der Kundin verlief gut. Wir haben uns gegenseitig vorgestellt und sind auf ihre Wünsche eingegangen.
   
   ### Was kann verbessert werden
+- Das Protokollieren im Gespräch war kaotisch, wir müssen das Protokoll im nächsten Sprint nochmals überarbeiten. Um Zeit zu Sparen müssen wir uns etwas Überlegen, wie wir das protokollieren während dem Gespräch vereinfachen.
 
-- 
 
 ### Massnahmen für den nächsten Sprint
 
-- 
+- Für das Nächste Mal machen wir uns gedanken, wie wir das Protokollieren während einem Gespräch vereinfachen, um weniger Zeit für das überarbeiten zu spaaren.
+- Für das nächste Gespräch werden wir eine Forlage für das Protokoll erstellen, indem das wichtigste vordefiniert ist. Dazu werden wir uns Produktbetreffende Frage überlegen und diese in die Forlage mit hinein nehmen.
 ---
