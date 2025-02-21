@@ -33,7 +33,7 @@ Das Protokoll überarbeiten, Erste implementationen tätigen, Gespräch mit der 
 - - Heute werden die 2 Mockups gemacht.
 - Ebenfalls wird das Gespräch mit der Kunden gehalten.
 
-- **Blocker:**
+- **Blocker:** Keine
 
   
 ### 07.02.2025
