@@ -1,4 +1,4 @@
-## Terminvereinbarung über Google Forms
+## Terminvereinbarung über Google Calendar
 
 Für die Funktion Termine in der Website vereinbaren zu können, nutzen wir Google-Calendar. Goole Calendar wird häufig verwendet, da diese Funktion mit einem Google-Account kostenfrei zur Verfügung steht. Es ist eine gute und Einfache lösung, ohne Geld für eine Erweiterung ausgeben zu müssen.
 
