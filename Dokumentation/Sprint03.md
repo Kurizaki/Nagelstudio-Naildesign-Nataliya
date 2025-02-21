@@ -46,7 +46,7 @@ Website fertig implementieren und das Resultat der Kundin vorstellen.
 **21.02.2025:** Die Website wurde grob fertiggestellt. Das Design ist fertig und der Text-Inhalt wurde grob hinzugefügt. Es fehlen jedoch noch der Feinschliff. Nächstem Mal werden wir ebenfalls die Terminvereinbarungs-Funktion implementieren.
 
 
-  **28.02.2025:** Die Website han einen Feinschliff bekommen. Die Terminvereinbarungs-Funktion wurde implementiert und die Website wurde der Kundin apgegeben. Für das Hosten haben wir uns mit Julius Server verbunden und die schon vorhandene Domain 
+  **28.02.2025:** Die Website han einen Feinschliff bekommen. Die Terminvereinbarungs-Funktion wurde implementiert und die Website wurde der Kundin apgegeben. Für das Hosten haben wir uns mit Julius Server verbunden und die vorhandene Domain mit der Website verbunden.
 
 ---
 
