@@ -86,14 +86,11 @@ Protokolle:
 ## Sprint Retrospektive
 
 ### Was lief gut
-
 - 
   
   ### Was kann verbessert werden
-
-- 
+- Der Container stürtzt ständig ab. Dies hat uns Zeit genommen. Für das nächste Mal, werden wir die Einstellung im Docker-Compose file ganz am Anfang tätigen.
 
 ### Massnahmen für den nächsten Sprint
-
-- 
+- Führen wir Tests durch, um zu überprüfen, ob der Container nun stabil ist oder ob weitere Anpassungen vorgenommen werden müssen.
 ---
