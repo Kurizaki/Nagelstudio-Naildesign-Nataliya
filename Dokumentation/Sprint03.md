@@ -60,7 +60,7 @@ Website fertig implementieren und das Resultat der Kundin vorstellen.
 ### Fortschritt der Arbeit
 
 **Protokolle:**
-- [Protokoll 21.02.2025](#)
+- [Protokoll 21.02.2025](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/Gespr%C3%A4chsprotokoll/Protokoll03_21.02.2025.md)
 
 **Bilder der Website**
 ---Bilder---
