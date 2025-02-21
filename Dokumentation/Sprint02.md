@@ -28,12 +28,12 @@ Das Protokoll überarbeiten, Erste implementationen tätigen, Gespräch mit der 
 
 ### 31.01.2025
 
-- **Was wurde heute gemacht:**
+**Was wurde heute gemacht:**
 - Heute wurde das Protokoll Überarbeitet
-- - Heute werden die 2 Mockups gemacht.
+-  Heute werden die 2 Mockups gemacht.
 - Ebenfalls wird das Gespräch mit der Kunden gehalten.
 
-- **Blocker:** Keine
+ **Blocker:** Keine
 
   
 ### 07.02.2025
@@ -44,10 +44,10 @@ Das Protokoll überarbeiten, Erste implementationen tätigen, Gespräch mit der 
  
 
 
-- **Was wird heute gemacht:**
+ **Was wird heute gemacht:**
 - Implementiert
 
-- **Blocker:**
+ **Blocker:**
 - Der Docker-Container hatte einen absturz und alle unsere Inhalte gingen verloren
 - Wir mussten den Container nochmals strten und den Grund des Absturzes herausfinden.
 - Wir haben das Probel mit dem Container lösen können, jedoch ging uns Zeit verloren.
