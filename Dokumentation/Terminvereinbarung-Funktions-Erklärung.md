@@ -8,7 +8,7 @@ Für die Funktion Termine in der Website vereinbaren zu können, nutzen wir Goog
 - **Einfach zu bedienen**: Sowohl für uns als auch für die Kundin ist es unkompliziert.
 - **Vertraut und häufig genutzt**: Viele sind bereits mit der Plattform vertraut, was den Einstieg erleichtert.
 - **Anpassbar**: Die Kundin ist selbst in der Lage verfügbare Daten im Calendar anpassen zu können. Dies festigt die langfristige Nutzung der Website.
-
+ ---
   ### Umsetzung
 
 
