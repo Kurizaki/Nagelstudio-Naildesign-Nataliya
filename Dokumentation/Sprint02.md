@@ -44,7 +44,7 @@ Das Protokoll überarbeiten, Erste implementationen tätigen, Gespräch mit der 
  
 
 
- **Was wird heute gemacht:**
+ **Was wurde heute gemacht:**
 - Implementiert
 
  **Blocker:**
@@ -86,7 +86,9 @@ Protokolle:
 ## Sprint Retrospektive
 
 ### Was lief gut
-- 
+- Die Mock-Ups wurden schnell implementiert. Wir haben das Design mit html und css erstellt.
+- Das Problem mit dem Container konnten wir mit einem line Code im yaml file beheben.
+- Wir können, wegen dem aufbereitetem protokoll, das nächste Mal weiter implementieren.
   
   ### Was kann verbessert werden
 - Der Container stürtzt ständig ab. Dies hat uns Zeit genommen. Für das nächste Mal, werden wir die Einstellung im Docker-Compose file ganz am Anfang tätigen.
