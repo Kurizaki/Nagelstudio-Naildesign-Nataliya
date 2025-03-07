@@ -63,13 +63,18 @@ Website fertig implementieren und das Resultat der Kundin vorstellen.
 - [Protokoll 21.02.2025](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/Gespr%C3%A4chsprotokoll/Protokoll03_21.02.2025.md)
 
 **Bilder der Website**
----Bilder---
+
+![image](https://github.com/user-attachments/assets/45a82dbf-002c-490e-879e-2faa73627b45)
+
 
 **Terminvereinbarungs-Funktion**
 - [Beschreibung](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/Dokumentation/Terminvereinbarung-Funktions-Erkl%C3%A4rung.md)
 
   **Domain**
-Die fertige Website ist hier aufrufbar.
+Die Website ist unter der IP aufrufbar.
+http://195.202.218.245:8080/
+
+Dies wird sich ändern, wenn der Inhaber des Servers die Domain hinzufügt.
 
 ---
 
