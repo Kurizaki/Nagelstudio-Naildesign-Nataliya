@@ -29,9 +29,9 @@ Das Protokoll überarbeiten, Erste implementationen tätigen, Gespräch mit der 
 ### 31.01.2025
 
 **Was wurde heute gemacht:**
-- Heute wurde das Protokoll Überarbeitet
+- Heute wurde das Protokoll überarbeitet
 -  Heute werden die 2 Mockups gemacht.
-- Ebenfalls wird das Gespräch mit der Kunden gehalten.
+- Ebenfalls wird das Gespräch mit der Kundin gehalten.
 
  **Blocker:** Keine
 
@@ -61,7 +61,7 @@ Das Protokoll überarbeiten, Erste implementationen tätigen, Gespräch mit der 
 - [Protokoll]([https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/Dokumentation/Technologie.md](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/Gespr%C3%A4chsprotokoll/Protokoll01_31.01.2025.md))
 
 
-**07.02.2025:** Heute haben wir nur implementiert. Es gab Problemen mit dem Docker-Conatiner. Der Container sürtzt ständig ab und nach jedem Absturz gehen alle unsere Vortschritte verloren. Um das Problem zu beheben habe wir eine Anpassung am Docker-Compose file vorgenommen
+**07.02.2025:** Heute haben wir nur implementiert. Es gab Probleme mit dem Docker-Container. Der Container sürtzt ständig ab und nach jedem Absturz gehen alle unsere Vortschritte verloren. Um das Problem zu beheben, haben wir eine Anpassung am Docker-Compose file vorgenommen
 - [Docker-Compose](https://github.com/Kurizaki/Nagelstudio-Naildesign-Nataliya/blob/main/DockerConnection/docker-compose.yml)
     
 ---
@@ -87,12 +87,12 @@ Protokolle:
 
 ### Was lief gut
 - Die Mock-Ups wurden schnell implementiert. Wir haben das Design mit html und css erstellt.
-- Das Problem mit dem Container konnten wir mit einem line Code im yaml file beheben.
-- Wir können, wegen dem guter aufbereitung des protokolls, das nächste Mal weiter implementieren.
+- Das Problem mit dem Container konnten wir mit einem Line-Code im yaml-file beheben.
+- Wir können, wegen der guten aufbereitung des protokolls, das nächste Mal weiter implementieren.
   
   ### Was kann verbessert werden
 - Der Container stürtzt ständig ab. Dies hat uns Zeit genommen. Für das nächste Mal, werden wir die Einstellung im Docker-Compose file ganz am Anfang tätigen.
 
 ### Massnahmen für den nächsten Sprint
-- Führen wir Tests durch, um zu überprüfen, ob der Container nun stabil ist oder ob weitere Anpassungen vorgenommen werden müssen.
+- Wir Führen Tests durch, um zu überprüfen, ob der Container nun stabil ist oder ob weitere Anpassungen vorgenommen werden müssen.
 ---
